@@ -1,32 +1,38 @@
 # Logical operator
 
-# a = 8
-# print(a>5 and a<9)
-# print(a<5 or a==9)
-# print(not(a>5))
+# a = 9
+# print(a>5 and a==10)
+# print(a==5 or a==10)
+# print(not(a<5))
 
-# membership operator
-# b = [12,345,7657,4,3124,654,6512,451345,13244,34,543,6,547,6,324,645,67]
-# print(345 not in b)
-# print(345 in b)
+# Identity operator
+# a = 10
+# b = 20
+# c = 10
 
-# identity operator
-# b = 10
-# c = 20
-# d = 10
-
+# print(id(a))
 # print(id(b))
 # print(id(c))
-# print(id(d))
 
-# print(b is d)
-# print(b is not c)
+# print(a is c)
+# print(a is not b)
+
+# Membership operator
+# a = [324,213,4,3,54,5432,1,64,7,878,5643,2343,4234]
+# print(5643 in a)
 
 # Bitwise operator
 a = 5
 b = 7
+
 print(bin(a))
 print(bin(b))
-print(a&b)
-print(a|b)
+
+# print(a & b)
+# print(a | b)
+print(a ^ b)
 print(~a)
+print(~b)
+
+# >>
+# <<
